@@ -1,0 +1,36 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$lilac: #36739c;
+
+body {
+  background: $lilac;
+  text-align: center;
+}
+
+a {
+  color: rgb(185, 255, 185);
+  border: solid 2px;
+  padding: 10px;
+  background-color: #ffbbf9;
+  font-size: 20px;
+
+  &:hover {
+    color: rgb(254, 255, 187);
+    transition: 0.5s;
+  }
+}
+
+.q, .answer {
+  color: white;
+  border: dashed 1px;
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+  font-size: 30px;
+  margin-bottom: 30px;
+  &:hover {
+    color: rgb(172, 172, 172);
+    transition: 00.5s;
+  }
+}
